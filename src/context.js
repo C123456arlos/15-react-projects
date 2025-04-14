@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { useCallback } from 'react'
-import SearchForm from './components/SearchForm'
 const url = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s='
 const AppContext = React.createContext()
 const AppProvider = ({ children }) => {
